@@ -69,8 +69,7 @@ projectname=$1
 hosts=$2
 check_arguments
 home=/home/$(whoami)
-projects_dir=/Dropbox/pcu/projects
-base_dir=$home/$projects_dir/$projectname/
+base_dir=$home/$projectname/
 sslscan_dir=ssl_enumeration/sslscan_output
 testssl_dir=ssl_enumeration/testssl_sh
 
